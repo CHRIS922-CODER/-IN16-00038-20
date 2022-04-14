@@ -1,0 +1,18 @@
+navigation bar {
+    links to home tab which id returns to the same bar 
+    teams link{
+  displays  a 5 list of  link teams vertically in a list directs to their own page
+    }
+    premier league table link{
+   a table with team performance of the stated teams and their { matches,win, draw , loses,position, points} occurs on top of the table\
+   {
+       team small(logos),  names a
+    }
+    fixtures link{
+        atleast six link
+        atmost
+        shows big teams logos and names  in opposite direction
+    date and time for the play at the bottom
+    and the venue of the match
+    }
+}
