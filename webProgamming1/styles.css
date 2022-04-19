@@ -1,0 +1,8 @@
+.container{
+    background:linear-gradient(45deg blue,orange,green);
+   background-repeat:no-repeat;
+   background-size:cover;
+}
+.container h1{
+    color:brown;
+}

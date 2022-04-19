@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:sans-serif;
+    
+}
+body{
+  background:url(photos/premeirleague/tactic3.jpeg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.loginbox{
+ width:520px;
+ height:580px;
+ background-color:rgba(53, 51, 51,0.9);
+ justify-content:center;
+ margin:20px auto;
+ position:relative;
+}
+.logo{
+    position:relative;
+    
+}
+img{
+    position:absolute;
+    left:25%;
+}
+form{
+    color:#fff;
+    margin:8px;
+}
+form p{
+    padding-bottom:4px;
+}
+input{
+    margin-top:3px;
+    color:rgb(250, 250, 250);
+}
+input[type="text"],input[type="email"],input[type="password"]{
+    border-bottom:1px solid gray;
+    outline:none;
+    width:100%;
+    background:transparent;
+    margin:2px;
+    padding:5px;
+}
+input[type="submit"]{
+    width:100%;
+    background-color:rgb(14, 14, 184);
+    color:white;
+    padding:8px;
+}

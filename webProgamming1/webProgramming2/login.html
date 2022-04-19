@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <title>Document</title>
+    <script src="app.js"></script>
+</head>
+<body>
+    <h1 class="header1">WELCOME TO THE LOGIN INFO</h1>
+    <div class="login-info">
+        
+    
+    <form class="login-form" action="#index.html" method="POST">
+     
+        <label for="fname"> Enter Your FirstName:</label>
+        <input type="text" class="in_put" required>
+        <label for="lname"> Enter Your LastName:</label>
+        <input type="text" class="in_put" required>
+        <label for="email">Enter Your email:</label>
+        <input type="email" class="in_put" required>
+        <label for="number">Enter Your PhoneNumber:</label>
+        <input type="number" name="number" class="in_put" required>
+       
+        <h3>select your course</h3>
+        <input type="checkbox" name="option" checked>
+        <label for="courses" >default</label>
+        <input type="checkbox" name="option" >
+        <label for="courses" >software engineering</label>
+        <input type="checkbox" name="option" >
+        <label for="courses">computer science</label>
+                <input type="checkbox" name="option">
+        <label for="courses">information technology</label> 
+               <input type="checkbox" name="option">
+        <label for="courses">applied computer science</label>
+     <br>
+
+     <h3>select your country of your origin</h3>
+     <select>
+        <option value="residence"> none</option>
+         <option value="residence"> kenya</option>
+         <option value="residence"> tanzania</option>
+         <option value="residence"> uganda</option>
+         <option value="residence"> rwanda</option>
+     </select>
+     <br>
+     <h3>Give more information about you</h3>
+     <textarea name="comments" id="" cols="80" rows="4" style="background-color:aqua; ">
+        
+     </textarea>
+     <br>
+        <label for="password" class="in_put">Enter Your Password</label>
+        <input type="password">
+
+
+
+        <input type="submit" value="submit" onclick="submit()">
+      
+        
+    </form>
+    <button><a href="index.html" class="nav-links">BACK</a></button>
+    </div>
+</body>
+</html>

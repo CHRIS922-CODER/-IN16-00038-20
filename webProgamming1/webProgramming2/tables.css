@@ -1,0 +1,34 @@
+
+.table1 tr td{
+    padding:5px;
+    background-color: red;
+    color:white;
+    border-radius:5px;
+}
+.table2 tr:nth-child(1){
+  background-color:green;  
+}
+.table2 tr:nth-child(2){
+    background-color:green;   
+}
+body{
+  background-color:blue;
+}
+p{ 
+  letter-spacing:2px;
+  text-align:center;
+  text-indent:3px;
+}
+.box1{
+border:1px solid black;
+width:30%;
+color:white;
+background-color:blue;                                                                                                                                                                                                                                                                 
+}
+.box2{
+  border:1px solid black;
+  width:50%;                                                                                                                                                                           
+  color:white;
+  background-color:blue; 
+      /* list-style-type:url(images/EtMkqCQXUAA-Jy1.jpg);                                       */
+}
