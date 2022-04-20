@@ -1,9 +1,4 @@
-/* *{
-    margin:0;
-    padding:0;
-    font-family:sans-serif;
-    box-sizing:border-box;
-} */
+
 body{
     margin:0;
     background:url(photos/premeirleague/home2.jpg);
@@ -15,51 +10,111 @@ body{
     filter:blur(0px);
     
 }
+li{
+    list-style:none;
+}
+    
+
 .nav-wrapper{
-    border:4px solid red;
     display:flex;
     width:100%;
-    height:15%;
-    background-color:rgba(6, 192, 192, 0.9);
+    height:12%;
+    background-color:rgba(4, 255, 255, 0.9);
 }
 .logo{
-    border:3px solid white;
+    
     width:120px;
-    height:86px;
+    height:80px;
 }
 .logo img{
-    height:85px;
+    height:75px;
     width:100px;
 }
 .nav-links{
-     border:1px solid rgb(236, 236, 8);
+   
      height:80px;
      width:80%;
      display:inline-flex;
      margin-left:32%;
     
 }
-.nav-links ul{
+.nav-links > ul{
    list-style: none;
    display:inline-flex;
    text-align:center;
-   width:60%;
+  
 }
-.nav-links ul li{
-    border:1px solid red;
+.nav-links ul li{ 
    width:120px;
    padding:20px;
-   /* margin:auto; */
+   margin-right:5px;
    text-transform:uppercase;
-}
-.nav-links ul li ul{
-    display:none;
-}
-.nav-links ul li a{
-    text-decoration:none;
+   color:white;
 }
 
-.active,.nav-links ul li:hover{
+.nav-links ul li a{
+    text-decoration:none;
+    color:rgb(3, 31, 28);
+}
+.active,.nav-links ul > li:hover{
+background-color:rgb(91, 109, 211);
+border-radius:6px;
+border-bottom:1px solid white;
+}
+.nav-links ul li .sub-menu{
+    display:none;  
+}
+/* .nav-links ul li:hover .sub-menu{
+    display:block;
+    position:absolute;
+     margin-top:10px;
+    top:9.1%;
+    right:54%;
+    left:54%;
+    width:60px;
+    height:32%;
+    border:1px solid blue;
+}
+.nav-links ul li:hover .sub-menu >ul{
+    background-color:rgb(19, 250, 250);
+    width:100%;
+}
+.nav-links ul li:hover .sub-menu ul li{
+margin-right:20px;
+padding:10px;
+margin-top:0;
+margin-left:0;
+}
+.nav-links ul li:hover .sub-menu ul li{
+    background-color: transparent;
+    border-bottom:1px dotted white;
+}
+.nav-links ul li:hover .sub-menu ul li:hover{
 background:rgb(140, 243, 238);
 border-radius:6px;
+} */
+.nav-links ul li:hover .sub-menu{
+    display:inline-flex;
+    background-color:transparent;
+    margin-top:6px;
+    margin-right:10px;
+    position:absolute;
+    top:9%;
+    left:55%;
+    background-color: rgb(15, 255, 255);
+    width:15%;
+    border-radius:3px;
 }
+.nav-links ul li:hover .sub-menu ul{
+    text-align:center;
+}
+.nav-links ul li:hover .sub-menu ul li{
+    text-transform:lowercase;
+    border-bottom:1px dotted white;
+    padding:4px;
+    margin:auto;
+}
+.nav-links ul li:hover .sub-menu ul li:hover{
+    background-color:rgb(91, 109, 211);
+}
+
