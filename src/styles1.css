@@ -52,3 +52,12 @@ input[type="submit"]{
     color:white;
     padding:8px;
 }
+button{
+    display:inline-block;
+    background-color:rgb(8, 8, 143);;
+    padding:10px;
+    color:white;
+    border-radius: 5px;
+    margin-left:40%;
+    margin-top:10px;
+}

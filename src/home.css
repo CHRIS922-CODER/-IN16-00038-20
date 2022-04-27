@@ -75,15 +75,18 @@ border-bottom:1px solid white;
     background-color: rgb(15, 255, 255);
     width:15%;
     border-radius:3px;
+    
 }
 .nav-links ul li:hover .sub-menu ul{
     text-align:center;
+    
 }
 .nav-links ul li:hover .sub-menu ul li{
     text-transform:lowercase;
     border-bottom:1px dotted white;
     padding:4px;
     margin:auto;
+    color:black;
 }
 .nav-links ul li:hover .sub-menu ul li:hover{
     background-color:rgb(91, 109, 211);
@@ -92,7 +95,7 @@ border-bottom:1px solid white;
     width:50%;
     height:50vh;
     background-color: rgba(93, 196, 196,0.1);
-    background-image: linear-gradient( 68.4deg,  rgba(99,251,215,1) -0.4%, rgba(5,222,250,1) 100.2% );
+    background-image: linear-gradient( 68.4deg,  rgb(186, 207, 202) -0.4%, rgb(31, 181, 201) 100.2% );
     border-radius:10px;
     text-align:center;
     color:white;
@@ -109,4 +112,22 @@ border-bottom:1px solid white;
     border-radius:3px;
     position:absolute;
     bottom:0;
+}
+.bottom .social-links{
+margin:5% auto;
+width:100%;
+display:flex;
+flex-direction: row;
+justify-content:flex-end;
+}
+.bottom .social-links a{   
+text-decoration: none;
+}
+.bottom .social-links img{
+    width:40px;
+    height:40px;
+    margin-left:20px;
+    margin-right:10px;
+    
+
 }
