@@ -1,0 +1,113 @@
+body{
+    margin:0;
+    overflow-x:hidden;
+    height:100vh;
+    filter:blur(0px);
+    box-sizing: border-box;
+    
+}
+li{
+    list-style:none;
+}
+    
+
+.nav-wrapper{
+    display:flex;
+    width:100%;
+    height:12%;
+    background-color:rgba(4, 255, 255, 0.9);
+}
+.logo{
+    
+    width:120px;
+    height:80px;
+}
+.logo img{
+    height:75px;
+    width:100px;
+}
+.nav-links{
+   
+     height:80px;
+     width:80%;
+     display:inline-flex;
+     margin-left:32%;
+    
+}
+.nav-links > ul{
+   list-style: none;
+   display:inline-flex;
+   text-align:center;
+  
+}
+.nav-links ul li{ 
+   width:120px;
+   padding:20px;
+   margin-right:5px;
+   text-transform:uppercase;
+   color:white;
+}
+
+.nav-links ul li a{
+    text-decoration:none;
+    color:rgb(3, 31, 28);
+}
+.active,.nav-links ul > li:hover{
+background-color:rgb(91, 109, 211);
+border-radius:6px;
+border-bottom:1px solid white;
+}
+.content{
+height:205vh;
+width:100vw;
+background:url(../chelsea/photos/chelsea\ squad.jpg);
+background-position: center;
+background-size:cover;
+background-repeat:no-repeat;
+position:relative;
+margin:auto;
+}
+.main-content{
+    
+    background-color:rgba(211, 198, 198,0.6);
+    position:absolute;
+    justify-content:center;
+    align-items:center;
+    margin-top:10px;
+    width:100vw;
+    height:200vh;
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(300px,300px));
+    column-gap:20px;
+    row-gap:20px;
+    border-radius:39px;
+}
+.player{
+    justify-content:center;
+    text-align:center;
+    width:300px;
+    height:300px;
+    object-fit:cover;
+    object-position:center;
+    border:1px solid rgb(83, 82, 82);
+    transition:all 0.5s linear;
+    border-radius:5px;
+}
+.player img{
+    width:50%;
+    height:50%;
+}
+.player p{
+    margin:0;
+    padding:0;
+    color:rgb(0, 0, 0);
+}
+.player span{
+    color:rgb(238, 238, 238);
+    
+}
+.player:hover{
+    background-color:rgb(0, 7, 199);
+
+}
+

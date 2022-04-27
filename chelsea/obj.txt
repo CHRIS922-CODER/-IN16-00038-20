@@ -1,0 +1,147 @@
+const playerObj = {
+[
+src : "../photos/",
+name : "#16 Edour " ,
+age : 28,
+country: "Brazil",
+position: "GoalKeeper",
+height: "1,88m "
+
+],
+[
+src : "../photos/",
+name : "#3 Ruben Dias " ,
+age : 24,
+country: "Portugal",
+position: " center-back",
+height : " 1,87m"
+
+],
+[
+src : "../photos/",
+name : "#14 aymeric Laporte" ,
+age : 27,
+country: "spain ",
+position: " center-back",
+height : "1,89m "
+
+],
+[
+src : "../photos/",
+name : "#5 john Stones" ,
+age : 27,
+country: "England ",
+position: "center-back",
+height: " 1,88m"
+
+],
+[
+src : "../photos/",
+name : "#6 Nathan Ake " ,
+age : 27,
+country: "Netherlands ",
+position: "center-back",
+height : " 1,80m"
+
+],
+[
+src : "../photos/",
+name : "#27 Joao Cancelo" ,
+age :27 ,
+country: "Portugal",
+position: "Right-back",
+height : "1,82m"
+
+],
+[
+src : "../photos/",
+name : "#2 Kyle Walker" ,
+age : 31,
+country: "England",
+position: "right-back",
+height : "1,83m"
+
+],
+[
+src : "../photos/",
+name : " #16 Rodri" ,
+age : 25,
+country: "spain",
+position: "Defensive midfield",
+height : "1,91m"
+
+],
+[
+src : "../photos/",
+name : " #47 phil Foden" ,
+age : 21,
+country: "England",
+position: "center-midfield",
+height : "1,71m"
+
+],
+[
+src : "../photos/",
+name : "#8 Ilkay Gundogan" ,
+age : 31,
+country: "Germany",
+position: "central-midfield",
+height : " "
+
+],
+[
+src : "../photos/",
+name : "#17 kevin De Bruyne " ,
+age : 30,
+country: "Belgium",
+position: "Attacking-midfield",
+height : "1,81m"
+
+],
+[
+src : "../photos/",
+name : "#20 Bernardo Silva " ,
+age : 27,
+country: "Portugal",
+position: "attacking midfield",
+height : " 1,73m"
+
+],
+[
+src : "../photos/",
+name : "#7 Raheem Sterling " ,
+age :27 ,
+country: "England",
+position: "Left winger",
+height : "1,70m"
+
+],
+[
+src : "../photos/",
+name : "#26 Riyad Mahrez " ,
+age :31 ,
+country: "Algeria",
+position: "Right winger",
+height : "1,79M"
+
+],
+[
+src : "../photos/",
+name : "#9 Gabriel Jesus " ,
+age :25 ,
+country: "Brazil",
+position: "center-forward",
+height : "1,75m"
+
+],
+[
+src : "../photos/",
+name : "#10 Jack Grealish" ,
+age : 26,
+country: "England",
+position: "Left winger",
+height : "1,80m"
+
+]
+
+}
