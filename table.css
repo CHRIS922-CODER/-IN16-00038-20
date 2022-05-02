@@ -109,3 +109,52 @@ th,td{
 table{
     margin-top:5px;
 }
+@media only screen and (max-width:700px){
+    body{
+        overflow-y:auto;
+    }
+    .nav-wrapper{
+        width:106%;
+        height:20%;
+    }
+    .logo img{
+        height:120px;
+        width:100px;
+    }
+    .nav-links{
+        height:99%;
+        width:40.5%;
+        display:flex;
+        margin-left:32%;   
+   }
+   .nav-links > ul{
+       display:block;
+       padding-right:10px;
+       margin:1px 78px;
+       width:80px;
+   } 
+   .nav-links ul li{
+    width:80px;
+    padding:5px;
+   }
+   .nav-links ul li:hover .sub-menu{
+    top:8%;
+    left:75%;
+    background-color:transparent;
+    width:24%;
+   }
+   .nav-links ul li:hover .sub-menu ul{
+       padding: 5px 20px;
+       background-color:aqua;
+       
+   }
+   .nav-links ul li:hover .sub-menu ul li{
+       margin-left:-6px;
+       margin-right:3px;
+       
+   }
+   .container2 table{
+       margin:auto;
+   }
+}
+
